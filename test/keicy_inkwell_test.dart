@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:keicy_ink_well/keicy_ink_well.dart';
+import 'package:keicy_inkwell/keicy_inkwell.dart';
 
 void main() {
   test('adds one to input values', () {
