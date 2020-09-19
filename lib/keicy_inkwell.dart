@@ -7,7 +7,7 @@ class KeicyInkWell extends StatelessWidget {
   final Widget child;
   final bool unfocusable;
 
-  const KeicyInkWell({Key key, this.onTap, @required this.child, this.unfocusable = false}) : super(key: key);
+  const KeicyInkWell({Key key, this.onTap, @required this.child, this.unfocusable = true}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
