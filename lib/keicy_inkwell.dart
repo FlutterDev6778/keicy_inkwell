@@ -20,7 +20,7 @@ class KeicyInkWell extends StatelessWidget {
         if (unfocusable) {
           FocusScope.of(context).requestFocus(new FocusNode());
         }
-        onTap();
+        if (onTap != null) onTap();
       },
       child: child,
     );
