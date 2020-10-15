@@ -11,11 +11,7 @@ class KeicyInkWell extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      hoverColor: Colors.transparent,
-      focusColor: Colors.transparent,
-      splashColor: Colors.transparent,
-      highlightColor: Colors.transparent,
+    return GestureDetector(
       onTap: () {
         if (unfocusable) {
           FocusScope.of(context).requestFocus(new FocusNode());
